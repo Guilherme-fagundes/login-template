@@ -1,0 +1,84 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Cairo', sans-serif;
+}
+
+body{
+    background-image: url('../img/bg.jpg');
+    background-repeat: no-repeat;
+    background-size: 100%;
+}
+
+
+.login{
+    position: fixed;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgba(0, 0, 0, .8);
+    z-index: 99999999;
+   
+}
+
+.login .login-box{
+    background-color: #000000;
+    width: 25%;
+    margin: 0 auto;
+    border-radius: 3px;
+
+}
+.login-box .form-login{
+    width: 100%;
+    padding: 1em 1em;
+}
+.login-box .form-login h1{
+    color: #fff;
+    font-weight: 300;
+   
+    text-align: center;
+}
+.login-box .form-login div{
+    width: 100%;
+    border-bottom: 1px solid rgba(0,0,0,0.2);
+    margin-bottom: 1em;
+
+}
+.login-box .form-login div span{
+    color: #fff;
+    font-family: 'Cairo', sans-serif;
+}
+.login-box .form-login div input{
+    border: none;
+    outline: 0;
+    width: 100%;
+    padding: 8px 10px;
+    border: 0;
+    border-radius: 3px;
+}
+.login-box .form-login div button{
+    width: 100%;
+    border: 0;
+    padding: 8px 0;
+    background-color: green;
+    color: #fff;
+    border-radius: 20px;
+    cursor: pointer;
+}
+.login-box .form-login div button:hover{
+    background-color: goldenrod;
+    transition: .5s;
+    
+}
+.login-box .form-login div a{
+    text-decoration: none;
+    color: #fff;
+}
+.login-box .form-login div a:hover{
+    text-decoration: underline;
+}
+
+

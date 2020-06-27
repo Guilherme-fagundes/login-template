@@ -1,2 +1,2 @@
 # login-template
-Login template
+![Screenshot](template.png)
